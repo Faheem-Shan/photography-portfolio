@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌿 BASE STYLES */
+@layer base {
+  body {
+    @apply bg-background text-text font-light transition-colors duration-500;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .dark body {
+    @apply bg-[#1A1A1A] text-[#EDEDED];
+  }
+
+  h1, h2, h3 {
+    @apply font-serif;
+  }
+}
+
+/* 🌿 HEADING FONT CLASS */
+.heading-font {
+  @apply font-serif transition-colors duration-500;
+}
+
+/* 🌿 SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 🌿 LIGHTBOX */
+.lightbox-overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+/* 🌿 SCROLL REVEAL */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
