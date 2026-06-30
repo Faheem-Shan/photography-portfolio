@@ -113,16 +113,6 @@ This project is configured for deployment on [Vercel](https://vercel.com).
    ```
 5. Deploy
 
----
-
-## Contact
-
-**Faheem Shan**
-📍 Kerala, India
-📷 [Instagram](https://instagram.com/__by.faheem)
-✉️ faheem.devop@gmail.com
-
----
 
 ## License
 
